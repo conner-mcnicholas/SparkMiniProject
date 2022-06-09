@@ -9,3 +9,6 @@ Bash script run.sh was used to create results in 2 formats:
 	-simple text file: output.txt
 <br>
 	-HDFS compatible: HDFS_text_results folder
+<br>
+
+Execution Log available in execution_log.txt
