@@ -3,6 +3,8 @@ from pyspark.sql import SparkSession
 from pyspark import SparkContext
 
 sc = SparkContext("local", "post-sales-auto")
+log4jLogger = sc._jvm.org.apache.log4j
+log = log4jLogger.LogManager.getLogger(__name__)
 
 raw_rdd = sc.textFile("data.csv")
 

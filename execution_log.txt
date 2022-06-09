@@ -1,0 +1,16 @@
+22/06/09 06:57:50 WARN Utils: Your hostname, Linuxclevo resolves to a loopback address: 127.0.1.1; using 10.0.1.137 instead (on interface wlp2s0)
+22/06/09 06:57:50 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark-3.2.1/jars/spark-unsafe_2.12-3.2.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+22/06/09 06:57:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+22/06/09 06:57:52 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+
+single file results printed to annual_acc.txt
+
+results saved as text file in HDFS format in HDFS_text_results folder
