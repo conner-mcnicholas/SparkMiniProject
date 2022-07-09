@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import pyspark
 from pyspark.sql import SparkSession
-from pyspark import SparkContext
+spark = SparkSession.builder.master('local[*]').appName('SparkMiniProject').getOrCreate()
+sc = spark.sparkContext
 
-sc = SparkContext("local", "SparkMiniProject")
 raw_rdd = sc.textFile("data.csv")
 
 def extract_vin_key_value(row):
